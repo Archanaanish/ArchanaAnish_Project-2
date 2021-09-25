@@ -86,7 +86,7 @@ span{
 }
 button{
     margin-top: 40px;
-    padding:15px 35px;
+    padding:15px 28px;
     background: rgb(51 206 225);
     color: white;
     border-radius: 6px;
@@ -197,9 +197,9 @@ padding-top: 25px;
 
 }
 #note{
-    margin-left:170px;
+    margin-left:159px;
     margin-top:-46px;
-    font-weight: bold;
+    font-size:18px;
     color: white;
     padding-bottom: 50px;
 }
@@ -320,6 +320,7 @@ padding-top: 25px;
          width:100%;
          margin-left:0;
      }
+     
     
      .box3{
          width:100%;
