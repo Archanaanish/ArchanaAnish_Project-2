@@ -50,11 +50,11 @@ span{
     .box{
      
       width:100%;
-      background-image: url("images/phone.jpg");
+      background-image: url("images/pic6.jpg");
       margin-left: 0;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position:right;
+      background-position: top right;
      
      
   }
@@ -240,14 +240,14 @@ padding-top: 25px;
 .t1{
     margin-left: 130px;
     margin-top:-90px;
-   line-height: 160%;
+   
    padding-bottom: 50px;
 }
 .t2{
     margin-left: 130px;
     margin-top:-90px;
-   line-height: 160%;
-
+    padding-bottom: 30px;;
+   
 }
 
 #picbtn{
