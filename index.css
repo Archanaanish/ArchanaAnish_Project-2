@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+ }
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   background-color: black;
+}
+
+
+
+
+.navbar{
+  
+   width:100%;
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top:10px;
+ 
+  }
+ul{
+   text-align: end;
+   
+   }
+ul li{
+    list-style: none;
+   display: inline-block;
+   font-weight: bolder;
+   padding: 4px;;
+  
+    color:black;
+    
+    }
+span{
+    color: white;
+    background: black;
+    padding:10px;
+}
+  .navbar h2{
+      font-size:45px;
+      float: left;
+      color:black;
+      font-weight: bolder;
+     
+  }
+    .box{
+     
+      width:100%;
+      background-image: url("images/phone.jpg");
+      margin-left: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+     
+     
+  }
+ 
+  
+.clearfix{
+    clear: both;
+}
+
+
+.content{
+    width:100%;
+    padding-left: 60px;
+   padding-right: 60px;
+  
+}
+#content1{
+
+    padding-top: 60px;
+    font-size: 50px;;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:black;
+
+}
+.para1, .para2, .para3{
+    padding-top: 20px;
+    color:black;
+}
+button{
+    margin-top: 40px;
+    padding:15px 35px;
+    background: rgb(51 206 225);
+    color: white;
+    border-radius: 6px;
+    border: 0;
+}
+.box1 .box2 .box3{
+    width:100%;
+}
+.box1{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+.columns{
+    width:31%;
+    color: gray;
+    float:left;
+   }
+
+h3{
+
+font-weight: lighter;
+font-size: 25px;
+color: white;
+}
+i{
+font-size: 70px;
+}
+.col{
+  margin-left:100px;
+  margin-top:-80px;
+  padding: 10px;
+
+}
+.btn{
+    margin-left:100px;
+    margin-top:5px
+}
+.box2{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    color: gray;
+}
+.listing1{
+    width:45%;
+    font-size: 23px;
+    font-weight: lighter;
+    float: left;
+}
+#head1{
+    font-size: 40px;
+    color: white;
+}
+#txt{
+    font-size:16px;
+   
+}
+.btn1{
+    margin-left:0;
+    margin-top:5px;
+}
+.listing2{
+    font-weight: lighter;
+    width:25%;
+    float: left;
+    margin-left:35px;
+    
+   
+   }
+   #head2 {
+       font-size: 35px;
+       margin-left: 20px;;
+       
+   }
+.p1,.p2{
+padding: 18px;
+}
+.listing3{
+    font-weight: lighter;
+    width:25%;
+    float: left;
+  }
+  #head3 {
+    font-size: 35px;
+    margin-left: 20px;;
+   
+}
+#p3{
+    margin-left: 25px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: white;
+}
+.box3{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 65px;
+    color: gray;
+}
+.section1{
+    width:32%;
+    margin:0;
+    float: left;
+}
+#subsec1{
+padding-top: 25px;
+
+}
+#note{
+    margin-left:170px;
+    margin-top:-46px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 50px;
+}
+#btnsec{
+    font-weight: bolder;
+    font-size: 15px;
+}
+#bnsec{
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.section2{
+    width:32%;
+    float:left;
+    margin-top:-8px;
+
+}
+.sec2{
+   padding-top: 25px;
+   font-weight: bold;
+   color: white;
+}
+.tsec{
+    padding-top: 26px;
+}
+.section3{
+    width:32%;
+    float:left;
+
+}
+.photo1{
+    width:100px;
+    height:80px;
+    margin-top: 10px;;
+ 
+}
+.t1{
+    margin-left: 130px;
+    margin-top:-90px;
+   line-height: 160%;
+   padding-bottom: 50px;
+}
+.t2{
+    margin-left: 130px;
+    margin-top:-90px;
+   line-height: 160%;
+
+}
+
+#picbtn{
+  margin-top:20px;
+}
+ .footer{
+     width:100%;
+    text-align: center;
+     color: gray;
+     padding:80px;
+ }
+  @media only screen and (max-width:576px) {
+     
+   
+      body{
+          width:100%;
+          margin: 0;
+         
+      }
+      .container{
+          width:100%;
+          margin: 0;
+      }
+     
+      
+      .box{
+          width:100%;
+      }
+      .navbar{
+          width:100%;
+      }
+     .content{
+         width:100%;
+     }
+     #content1{
+         width:100%;
+     }
+     .content .para1 .para2 .para3{
+         width:100%;
+     }
+     .btn{
+         padding:10px;
+     }
+     .box1{
+         width: 100%;
+     }
+     .box1 .columns{
+         width:100%;
+     }
+     .box2{
+         width:100%;
+     }
+     .listing1 {
+         width:100%;
+     }
+     .listing2 {
+         width:100% ;
+         margin-left:0;
+       }
+       .btn1{
+           text-align: center;
+       }
+     .listing3{
+         width:100%;
+         margin-left:0;
+     }
+    
+     .box3{
+         width:100%;
+     }
+     .section1 {
+         width:100%;
+     }
+     .section2 {
+        width:100%;
+    }
+    .t1 .t2{
+        line-height: 0;
+    }
+    .section3 {
+        width:100%;
+    }
+    #picbtn{
+     margin-left: 20%;
+    }
+    .footer{
+        width:100%;
+    }
+
+}
