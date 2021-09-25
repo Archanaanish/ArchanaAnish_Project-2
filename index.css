@@ -54,7 +54,7 @@ span{
       margin-left: 0;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: bottom right;
+      background-position:right;
      
      
   }
@@ -132,7 +132,7 @@ font-size: 70px;
     color: gray;
 }
 .listing1{
-    width:45%;
+    width:40%;
     font-size: 23px;
     font-weight: lighter;
     float: left;
@@ -151,9 +151,9 @@ font-size: 70px;
 }
 .listing2{
     font-weight: lighter;
-    width:25%;
+    width:20%;
     float: left;
-    margin-left:35px;
+    margin-left:0;
     
    
    }
@@ -167,7 +167,7 @@ padding: 18px;
 }
 .listing3{
     font-weight: lighter;
-    width:25%;
+    width:20%;
     float: left;
   }
   #head3 {
@@ -277,6 +277,12 @@ padding-top: 25px;
           width:100%;
       }
       .navbar{
+          width:100%;
+      }
+      .h2{
+          width:100%;
+      }
+      ul li{
           width:100%;
       }
      .content{
